@@ -1,0 +1,11 @@
+name = "flerken";
+picture = "newlogo_3_256.paa";
+description = "Ghosts of Battle Aegis-Vers ACE Extended Arsona";
+logo = "newlogo_3_256.paa";
+logoOver = "newlogo_3_256_g.paa";
+tooltip = "Here you will return, you will not die in war";
+tooltipOwned = "Project Template Weee";
+overview = "Ghosts of Battle Aegis-Vers ACE Extended Arsonal";
+author = "YonV";
+overviewPicture = "newlogo_3_256.paa";
+dir = "@flerken";

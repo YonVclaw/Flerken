@@ -1,0 +1,38 @@
+name = "flerken"
+mainprefix = "z"
+prefix = "flerken"
+author = "YonV"
+
+[files]
+include = [
+    "mod.cpp",
+    "README.md",
+    "LICENSE",
+    "3rdparty",
+    "AUTHORS.txt",
+    "newlogo_3.png",
+    "newlogo_3_256_g.paa",
+    "newlogo_3_256.paa",
+]
+
+[lint.sqf]
+enabled = true # Default: true
+exclude = [
+    "a3/3DEN/UI/macroexecs.inc",
+    "macroexecs.inc",
+    "initSettings.sqf",
+    "a3/ui_f/hpp/defineResincl.inc",
+    "a3/ui_f/hpp/defineDIKCodes.inc",
+    "a3/ui_f/hpp/defineCommonGrids.inc",
+    "a3/ui_f/hpp/defineCommonColors.inc",
+]
+
+[Rapify]
+exclude = [
+    "macroexecs.inc"
+]
+
+[asc]
+enabled = true # Default: false
+exclude = [
+]
